@@ -1,5 +1,5 @@
 import { priceFormatStr, unitPriceFormatStr } from '../../src/common/helpers/getPriceForQuantity';
-import { COFFEE_PRICES } from '../../src/constant';
+import { COFFEE_PRICES } from '../../src/constants';
 import { test } from '../fixtures/fixtures';
 
 test('Check Cappuccino correctly added to the Cart', async ({menuPage,cartPage }) => {

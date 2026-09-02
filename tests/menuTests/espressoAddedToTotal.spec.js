@@ -1,5 +1,5 @@
 import { totalPriceFormatStr } from '../../src/common/helpers/getPriceForQuantity';
-import { COFFEE_PRICES } from '../../src/constant';
+import { COFFEE_PRICES } from '../../src/constants';
 import { test } from '../fixtures/fixtures';
 
 test('Check Espresso cost is added to Total on menu page', async ({ menuPage }) => {
